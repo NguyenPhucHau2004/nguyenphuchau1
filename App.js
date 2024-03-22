@@ -1,22 +1,29 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import Main from './component/Screen/lab3 (1)/Main';
-import Bai2 from './component/Screen/lab1 (1)/bai2';
-import Bai3Lab1 from './component/Screen/lab1 (1)/bai3';
+import React from "react";
 
-export default function App() {
+import Lab1 from "./src/screen/lab1/Ex1";
+import Lab1_2 from "./src/screen/lab1/Ex2";
+import Lab1_3 from "./src/screen/lab1/Ex3";
+import Lab2 from "./src/screen/lab2/Main/Main"
+import Lab3 from "./src/screen/lab3/Ex1"
+import Lab3_2 from "./src/screen/lab3/Ex2";
+import Lab3_3 from "./src/screen/lab3/Ex3/index";
+import Lab4 from "./src/screen/lab4/EX1/index";
+
+
+
+const App = () =>{
   return(
-    <Main></Main>
-    // <Bai2></Bai2>
-    // <Bai3Lab1></Bai3Lab1>
-  )
+
+    // <Lab1></Lab1>
+    <Lab1_2></Lab1_2>
+    // <Lab1_3></Lab1_3>
+      // <Lab2></Lab2>
+      // <Lab3></Lab3>
+      // <Lab3_2></Lab3_2>
+       //<Lab3_3></Lab3_3>
+      //<Lab4></Lab4>
+
+  );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;

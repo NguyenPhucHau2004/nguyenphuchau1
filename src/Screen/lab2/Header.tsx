@@ -1,6 +1,6 @@
 import { Image, StyleSheet, Text, View } from 'react-native';
 import React, { FC, memo } from 'react';
-import { UserType } from './Main';
+import { UserType } from './Main/Main';
 
 type HeaderType = {
     user?: UserType;

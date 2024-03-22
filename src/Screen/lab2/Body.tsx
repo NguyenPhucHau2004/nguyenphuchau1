@@ -7,7 +7,7 @@ import {
     View,
 } from 'react-native';
 import React, { FC, memo, useState } from 'react';
-import { UserType } from './Main';
+import { UserType } from './Main/Main';
 
 type BodyType = {
     onUpdateInfor: (user: UserType) => void;

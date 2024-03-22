@@ -1,8 +1,8 @@
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import React, { useCallback, useEffect, useState } from 'react';
-import Body from './Body';
-import Footer from './Footer';
-import Header from './Header';
+import Body from '../Body';
+import Footer from '../Footer';
+import Header from '../Header';
 
 export type UserType = {
     name: string;
